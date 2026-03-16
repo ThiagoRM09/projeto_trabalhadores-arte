@@ -31,17 +31,15 @@ O projeto foi desenvolvido utilizando tecnologias fundamentais do desenvolviment
 projetoSite_oTrabalhador
 │
 ├── home.html
+├── past.html
+├── now.html
 │
 ├── assets
 │   ├── css
 │   │   └── style.css
 │   │
-│   ├── html
-│   │   ├── past.html
-│   │   └── now.html
-│   │
 │   ├── js
-│   │   │── main.js
+│   │   └── main.js
 │   │
 │   └── images
 │       └── (imagens utilizadas no site)
