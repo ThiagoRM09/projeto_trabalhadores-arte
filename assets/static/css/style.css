@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.buttonPast{
+    position: absolute;
+    display: flex;
+
+    justify-items: center;
+    justify-content: center;
+    left: 30%;
+
+    width: 250px;
+    height: 60;
+
+    border-radius: 15px;
+    font-size: 35px;
+    color: #e6d8a2;
+    background-color: #60371c;
+}
+
+.buttonNow{
+    position: absolute;
+    display: flex;
+
+    justify-items: center;
+    justify-content: center;
+    left: 55%;
+
+    width: 250px;
+    height: 60;
+
+    border-radius: 15px;
+    font-size: 35px;
+    color: #a3f1b2;
+    background-color: #3d3d5b;
+}
+
+.buttonHome{
+    position: absolute;
+    display: flex;
+
+    justify-items: center;
+    justify-content: center;
+    left: 30%;
+
+    width: 250px;
+    height: 60;
+
+    border-radius: 15px;
+    font-size: 35px;
+    color: grey;
+    background-color: #141313;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;         
+    left: 0;        
+    width: 100%;     
+    z-index: 1000; 
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.homeStyle{
+    background-image: url(/assets/static/images/7992423-droste-effect-background-with-infinite-clock-espiral-abstract-design-for-concepts-related-to-time-foto.jpg);/*trocar imagem*/
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.pastStyle{
+    background-image: url(/assets/static/images/s-l1200.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.nowStyle{
+    background-image: url(/assets/static/images/work.gif);/*trocar imagem*/
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.box{
+    width: 800px;
+    padding: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(26, 25, 25, 0.349)
+} 
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer a{
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    text-align: center;
+    font-style: italic; 
+}
